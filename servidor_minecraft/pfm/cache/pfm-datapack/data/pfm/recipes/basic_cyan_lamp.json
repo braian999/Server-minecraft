@@ -1,0 +1,83 @@
+{
+  "type": "pfm:dynamic_furniture",
+  "supportedVariants": [
+    "minecraft:oak",
+    "minecraft:bamboo",
+    "minecraft:spruce",
+    "minecraft:birch",
+    "minecraft:jungle",
+    "minecraft:acacia",
+    "minecraft:cherry",
+    "minecraft:dark_oak",
+    "minecraft:mangrove",
+    "minecraft:crimson",
+    "minecraft:warped",
+    "bigglobe:charred",
+    "biomeswevegone:aspen",
+    "biomeswevegone:baobab",
+    "biomeswevegone:blue_enchanted",
+    "biomeswevegone:cika",
+    "biomeswevegone:cypress",
+    "biomeswevegone:ebony",
+    "biomeswevegone:fir",
+    "biomeswevegone:florus",
+    "biomeswevegone:green_enchanted",
+    "biomeswevegone:holly",
+    "biomeswevegone:ironwood",
+    "biomeswevegone:jacaranda",
+    "biomeswevegone:mahogany",
+    "biomeswevegone:maple",
+    "biomeswevegone:palm",
+    "biomeswevegone:pine",
+    "biomeswevegone:rainbow_eucalyptus",
+    "biomeswevegone:redwood",
+    "biomeswevegone:sakura",
+    "biomeswevegone:skyris",
+    "biomeswevegone:white_mangrove",
+    "biomeswevegone:willow",
+    "biomeswevegone:witch_hazel",
+    "biomeswevegone:zelkova",
+    "deeperdarker:echo",
+    "iceandfire:dreadwood",
+    "twilightforest:twilight_oak",
+    "twilightforest:canopy",
+    "twilightforest:mangrove",
+    "twilightforest:dark",
+    "twilightforest:time",
+    "twilightforest:transformation",
+    "twilightforest:mining",
+    "twilightforest:sorting",
+    "vanillabackport:pale_oak"
+  ],
+  "ingredients": {
+    "vanillaIngredients": [
+      {
+        "item": "minecraft:cyan_wool"
+      },
+      {
+        "item": "minecraft:cyan_wool"
+      },
+      {
+        "item": "minecraft:cyan_wool"
+      },
+      {
+        "item": "minecraft:torch"
+      },
+      {
+        "item": "minecraft:redstone"
+      }
+    ],
+    "variantChildren": {
+      "stripped_log": 2
+    }
+  },
+  "result": {
+    "outputClass": "BasicLampBlock",
+    "tag": {
+      "BlockEntityTag": {
+        "color": "cyan"
+      },
+      "variantInNbt": 1
+    }
+  }
+}

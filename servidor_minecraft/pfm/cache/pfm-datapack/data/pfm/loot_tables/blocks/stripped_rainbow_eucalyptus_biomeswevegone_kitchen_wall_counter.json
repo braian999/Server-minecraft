@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pfm:stripped_rainbow_eucalyptus_biomeswevegone_kitchen_wall_counter"
+        }
+      ]
+    }
+  ]
+}
