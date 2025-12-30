@@ -1,0 +1,1379 @@
+[14:41:17] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.2
+[14:41:18] [ForkJoinPool-1-worker-2/WARN]: Mod naturalist uses the version 5.0pre5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:41:18] [main/INFO]: Loading 185 mods:
+	- advancednetherite 2.1.3-1.20.1
+	- architectury 9.2.14
+	- aviator_dream 2.0.0
+	- balm 7.3.37
+	   \-- kuma_api 20.1.12
+	- bettercombat 1.8.6+1.20.1
+	- betterdungeons 1.20-Fabric-4.0.4
+	   \-- org_reflections_reflections 0.10.2
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- create 6.0.8.1+build.1744-mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 1.0.5+1.20.1.build.264
+	   |-- forgeconfigapiport 8.0.0
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- ponder 1.0.91
+	   |    |-- com_google_code_findbugs_jsr305 3.0.2
+	   |    |-- flywheel 1.0.0
+	   |    |-- forgeconfigapiport 8.0.0
+	   |    \-- javax_annotation_javax_annotation-api 1.3.2
+	   |-- porting_lib_accessors 2.3.13+1.20.1
+	   |    \-- porting_lib_core 2.3.13+1.20.1
+	   |-- porting_lib_base 2.3.13+1.20.1
+	   |    |-- porting_lib_attributes 2.3.13+1.20.1
+	   |    |-- porting_lib_common 2.3.13+1.20.1
+	   |    |-- porting_lib_config 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    |-- porting_lib_fluids 2.3.13+1.20.1
+	   |    |-- porting_lib_gui_utils 2.3.13+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.13+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.13+1.20.1
+	   |    |-- porting_lib_utility 2.3.13+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.13+1.20.1
+	   |    \-- porting_lib_core 2.3.13+1.20.1
+	   |-- porting_lib_client_events 2.3.13+1.20.1
+	   |    \-- porting_lib_core 2.3.13+1.20.1
+	   |-- porting_lib_entity 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.13+1.20.1
+	   |-- porting_lib_extensions 2.3.13+1.20.1
+	   |    |-- porting_lib_attributes 2.3.13+1.20.1
+	   |    |-- porting_lib_common 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_model_generators 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    |-- porting_lib_data 2.3.13+1.20.1
+	   |    |-- porting_lib_model_materials 2.3.13+1.20.1
+	   |    \-- porting_lib_utility 2.3.13+1.20.1
+	   |-- porting_lib_models 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    |-- porting_lib_fluids 2.3.13+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.13+1.20.1
+	   |-- porting_lib_networking 2.3.13+1.20.1
+	   |    \-- porting_lib_core 2.3.13+1.20.1
+	   |-- porting_lib_obj_loader 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.13+1.20.1
+	   |-- porting_lib_tool_actions 2.3.13+1.20.1
+	   |    \-- porting_lib_core 2.3.13+1.20.1
+	   |-- porting_lib_transfer 2.3.13+1.20.1
+	   |    |-- porting_lib_core 2.3.13+1.20.1
+	   |    \-- porting_lib_fluids 2.3.13+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.79-MC1.20.1
+	        |-- com_google_code_findbugs_jsr305 3.0.2
+	        \-- porting_lib_tags 3.0
+	             \-- porting_lib_gametest 2.1.1090+1.20
+	- creativecore 2.12.33
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- darkmobs 1.1.9
+	- dawn 5.0.0
+	   |-- terraform-shapes-api-v1 7.0.1
+	   \-- terraform-wood-api-v1 7.0.1
+	- fabric-api 0.92.6+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.67+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
+	   |-- fabric-networking-v0 0.3.54+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabric-language-kotlin 1.13.8+kotlin.2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- fallingtree 4.3.4
+	- fastmove 1.0.8
+	- geckolib 4.8.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- glitchcore 0.0.1.1
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- immersive_aircraft 1.4.0+1.20.1
+	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
+	- immersive_armors 1.7.1+1.20.1
+	- java 17
+	- justhammers 20.1.5+mc1.20.1
+	- lithostitched 1.4.11
+	- majruszlibrary 7.0.8
+	- majruszsdifficulty 1.9.10
+	- man_of_many_planes 0.2.0+1.20.1
+	- minecraft 1.20.1
+	- mr_lukis_grandcapitals 1.1.2
+	- mr_lukis_strongholds 1-v1.0
+	- mr_lukis_woodlandmansions 1-v.1.0
+	- mru 1.0.4+1.20.1+fabric
+	- mutantmonsters 8.0.7
+	   \-- extensibleenums 7.0.1
+	- mutantszombies 1.3.1-Fabric-mc1.20.1
+	   \-- cloth-config 11.1.118
+	        \-- cloth-basic-math 0.6.1
+	- naturalist 5.0pre5
+	   \-- midnightlib 1.4.1
+	- owo 0.11.2+1.20
+	- platform 1.2.11.3
+	- player-animator 1.0.2-rc1+1.20
+	- plentyofarmors 1.3.0
+	- puzzleslib 8.1.33
+	   \-- puzzlesaccessapi 20.1.1
+	- railways 1.6.14-beta+fabric-mc1.20.1
+	   \-- mm 2.3
+	- silk-all 1.10.1
+	   |-- silk-commands 1.10.1
+	   |-- silk-core 1.10.1
+	   |-- silk-game 1.10.1
+	   |-- silk-igui 1.10.1
+	   |-- silk-nbt 1.10.1
+	   |-- silk-network 1.10.1
+	   \-- silk-persistence 1.10.1
+	- sparsestructures 3.0
+	- structory 1.3.5
+	- tacz 0.2.0-forge1.1.7
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- com_github_figuramc_luaj_luaj-core 3.0.8-figura
+	   |-- com_github_figuramc_luaj_luaj-jse 3.0.8-figura
+	   |-- mkb 1.2.0
+	   |-- org_apache_bcel_bcel 6.6.1
+	   \-- org_apache_commons_commons-math3 3.6.1
+	- tectonic 3.0.17
+	- terralith 2.5.4
+	- toughasnails 9.2.0.171
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- travelersbackpack 9.1.43
+	   \-- reach-entity-attributes 2.4.0
+	- undeadnights 2.0.1-Fabric-mc1.20.1
+	   \-- cloth-config 11.1.118
+	        \-- cloth-basic-math 0.6.1
+	- underground_bunkers 1.0.3
+	- vanillabackport 1.1.5.1
+	- waystones 14.1.17
+	- yet_another_config_lib_v3 3.6.6+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yigd 2.0.16
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+	- yungsapi 1.20-Fabric-4.0.6
+	   \-- org_javassist_javassist 3.29.2-GA
+[14:41:18] [main/WARN]: Found 1 non-fabric mod:
+	- zombieawareness-1.20.1-1.13.1.jar
+[14:41:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Server-minecraft/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:41:19] [main/INFO]: Compatibility level set to JAVA_17
+[14:41:19] [main/WARN]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:41:19] [main/WARN]: Reference map 'plenty-of-armors-refmap.json' for plentyofarmors.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:41:19] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:41:19] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:41:19] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[14:41:19] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[14:41:19] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[14:41:19] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[14:41:19] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[14:41:19] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[14:41:19] [main/WARN]: Error loading class: net/minecraft/class_572 (java.lang.ClassNotFoundException: net/minecraft/class_572)
+[14:41:19] [main/WARN]: @Mixin target net.minecraft.class_572 was not found fastmove.mixins.json:BipedEntityModelMixin from mod fastmove
+[14:41:20] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[14:41:20] [main/WARN]: Error loading class: dev/engine_room/flywheel/lib/visual/AbstractVisual (java.lang.ClassNotFoundException: dev/engine_room/flywheel/lib/visual/AbstractVisual)
+[14:41:20] [main/WARN]: @Mixin target dev.engine_room.flywheel.lib.visual.AbstractVisual was not found railways-common.mixins.json:client.AccessorAbstractVisual from mod railways
+[14:41:20] [main/WARN]: Error loading class: com/illusivesoulworks/comforts/common/block/BaseComfortsBlock (java.lang.ClassNotFoundException: com/illusivesoulworks/comforts/common/block/BaseComfortsBlock)
+[14:41:20] [main/WARN]: @Mixin target com.illusivesoulworks.comforts.common.block.BaseComfortsBlock was not found undeadnights.mixins.json:BaseComfortBlocksMixin from mod undeadnights
+[14:41:20] [main/WARN]: Error loading class: net/mehvahdjukaar/moonlight/api/set/leaves/LeavesType (java.lang.ClassNotFoundException: net/mehvahdjukaar/moonlight/api/set/leaves/LeavesType)
+[14:41:20] [main/WARN]: Error loading class: net/mehvahdjukaar/moonlight/api/set/wood/WoodType (java.lang.ClassNotFoundException: net/mehvahdjukaar/moonlight/api/set/wood/WoodType)
+[14:41:20] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[14:41:20] [main/WARN]: Error loading class: io/github/apace100/apoli/power/KeepInventoryPower (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/KeepInventoryPower)
+[14:41:20] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/LargeMapScreen)
+[14:41:20] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.LargeMapScreen was not found create.mixins.json:compat.ftbchunks.LargeMapScreenAccessor from mod create
+[14:41:20] [main/WARN]: Error loading class: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel (java.lang.ClassNotFoundException: dev/ftb/mods/ftbchunks/client/gui/RegionMapPanel)
+[14:41:20] [main/WARN]: @Mixin target dev.ftb.mods.ftbchunks.client.gui.RegionMapPanel was not found create.mixins.json:compat.ftbchunks.RegionMapPanelAccessor from mod create
+[14:41:20] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[14:41:20] [main/WARN]: Error loading class: net/minecraft/class_4587$class_4665 (java.lang.ClassNotFoundException: net/minecraft/class_4587$class_4665)
+[14:41:20] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[14:41:27] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[14:41:27] [main/WARN]: Method overwrite conflict for getPools in porting_lib_tool_actions.mixins.json:BuilderAccessor from mod porting_lib_tool_actions, previously written by com.blackgear.platform.core.mixin.fabric.LootTableBuilderMixin. Skipping method.
+[14:41:27] [main/ERROR]: No data fixer registered for aviator_dream:douglas_dc1
+[14:41:27] [main/ERROR]: No data fixer registered for aviator_dream:douglas_dc2
+[14:41:27] [main/ERROR]: No data fixer registered for aviator_dream:douglas_c47
+[14:41:27] [main/ERROR]: No data fixer registered for aviator_dream:lockheed_l1049g
+[14:41:27] [main/ERROR]: No data fixer registered for aviator_dream:test
+[14:41:27] [main/ERROR]: No data fixer registered for aviator_dream:dehavilland_dh106
+[14:41:27] [main/ERROR]: No data fixer registered for aviator_dream:fokker_fviib3m
+[14:41:27] [main/ERROR]: No data fixer registered for aviator_dream:fokker_fviia
+[14:41:27] [main/ERROR]: No data fixer registered for aviator_dream:toyota_stout_k100
+[14:41:28] [main/INFO]: Reflections took 64 ms to scan 1 urls, producing 1 keys and 3 values
+[14:41:28] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 3 values
+[14:41:28] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[14:41:28] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:41:28] [main/INFO]: Create 6.0.8.1 initializing!
+[14:41:30] [main/INFO]: initializing FastMove :3
+[14:41:30] [main/ERROR]: No data fixer registered for water_purifier
+[14:41:30] [main/ERROR]: No data fixer registered for temperature_gauge
+[14:41:30] [main/ERROR]: No data fixer registered for thermoregulator
+[14:41:30] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
+[14:41:30] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
+[14:41:30] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
+[14:41:30] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
+[14:41:30] [main/ERROR]: No data fixer registered for immersive_aircraft:warship
+[14:41:30] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
+[14:41:30] [main/ERROR]: No data fixer registered for immersive_aircraft:bamboo_hopper
+[14:41:30] [main/ERROR]: No data fixer registered for immersive_aircraft:bullet
+[14:41:30] [main/ERROR]: No data fixer registered for immersive_aircraft:tiny_tnt
+[14:41:31] [main/ERROR]: No data fixer registered for cerberus
+[14:41:31] [main/ERROR]: No data fixer registered for creeperling
+[14:41:31] [main/ERROR]: No data fixer registered for cursed_armor
+[14:41:31] [main/ERROR]: No data fixer registered for tank
+[14:41:31] [main/ERROR]: No data fixer registered for man_of_many_planes:scarlet_biplane
+[14:41:31] [main/ERROR]: No data fixer registered for man_of_many_planes:economy_plane
+[14:41:31] [main/INFO]: Definitely not up to no good
+[14:41:31] [main/ERROR]: No data fixer registered for creeper_minion
+[14:41:31] [main/ERROR]: No data fixer registered for mutant_creeper
+[14:41:31] [main/ERROR]: No data fixer registered for mutant_enderman
+[14:41:31] [main/ERROR]: No data fixer registered for mutant_skeleton
+[14:41:31] [main/ERROR]: No data fixer registered for mutant_snow_golem
+[14:41:31] [main/ERROR]: No data fixer registered for mutant_zombie
+[14:41:31] [main/ERROR]: No data fixer registered for spider_pig
+[14:41:31] [main/ERROR]: No data fixer registered for body_part
+[14:41:31] [main/ERROR]: No data fixer registered for creeper_minion_egg
+[14:41:31] [main/ERROR]: No data fixer registered for endersoul_clone
+[14:41:31] [main/ERROR]: No data fixer registered for endersoul_fragment
+[14:41:31] [main/ERROR]: No data fixer registered for throwable_block
+[14:41:31] [main/INFO]: Constructing common components for mutantmonsters:main
+[14:41:31] [main/INFO]: Loading common config for mutantmonsters
+[14:41:31] [main/ERROR]: No data fixer registered for mutantszombies:blister_zombie
+[14:41:31] [main/ERROR]: No data fixer registered for mutantszombies:crawler
+[14:41:31] [main/ERROR]: No data fixer registered for mutantszombies:spitter
+[14:41:31] [main/ERROR]: No data fixer registered for mutantszombies:spitter_projectile
+[14:41:31] [main/ERROR]: No data fixer registered for mutantszombies:zombie_brute
+[14:41:31] [main/ERROR]: No data fixer registered for mutantszombies:split_head_zombie
+[14:41:31] [main/ERROR]: No data fixer registered for mutantszombies:mutant_brute
+[14:41:31] [main/ERROR]: No data fixer registered for mutantszombies:rotten_mutant
+[14:41:31] [main/INFO]: Registering Mod Items for mutantszombies
+[14:41:31] [main/INFO]: Registering Sounds for mutantszombies
+[14:41:31] [main/INFO]: chyz: bro, can you stop breathing
+[14:41:31] [main/INFO]: Registering Mod items forplentyofarmors
+[14:41:32] [main/INFO]: Constructing common components for puzzleslib:main
+[14:41:32] [main/INFO]: Steam 'n' Rails v1.6.14-beta initializing! Commit hash: a23701697f25a217ed967b564a216a6429e07009 on Create version: 6.0.8.1 on platform: Fabric
+[14:41:32] [main/INFO]: Registered bogey styles from railways
+[14:41:32] [main/INFO]: Registering data fixers
+[14:41:32] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[14:41:32] [main/INFO]: Registering tracks for Hex Casting
+[14:41:32] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
+[14:41:32] [main/INFO]: Registering tracks for Blue Skies
+[14:41:32] [main/INFO]: Registering tracks for Twilight Forest
+[14:41:32] [main/INFO]: Registering tracks for Biomes O' Plenty
+[14:41:32] [main/INFO]: Registering tracks for Nature's Spirit
+[14:41:32] [main/INFO]: Registering tracks for Dreams and Desires
+[14:41:32] [main/INFO]: Registering tracks for Quark
+[14:41:32] [main/INFO]: Registering tracks for TerraFirmaCraft
+[14:41:33] [main/INFO]: Initializing Silk due to init call
+[14:41:33] [main/INFO]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[14:41:33] [main/INFO]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[14:41:33] [main/INFO]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[14:41:33] [main/INFO]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[14:41:33] [main/INFO]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[14:41:33] [main/INFO]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[14:41:33] [main/INFO]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[14:41:33] [main/INFO]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[14:41:33] [main/INFO]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[14:41:33] [main/ERROR]: No data fixer registered for target_minecart
+[14:41:33] [main/ERROR]: No data fixer registered for 
+[14:41:33] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[14:41:33] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[14:41:33] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[14:41:33] [main/INFO]: Registered the FluidEffect with Unique ID of milk:still_milk for Milk (Fluid Amount Required: 81000) with the ID 3
+[14:41:33] [main/INFO]: Registered the FluidEffect with Unique ID of toughasnails:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 4
+[14:41:33] [main/INFO]: Registered the FluidEffect with Unique ID of toughasnails:water_canteen for Water (Fluid Amount Required: 27000) with the ID 5
+[14:41:33] [main/INFO]: Registered the FluidEffect with Unique ID of toughasnails:water for Water (Fluid Amount Required: 81000) with the ID 6
+[14:41:33] [main/INFO]: Initializing the Undead Nights Mod
+[14:41:33] [main/INFO]: Loading undeadnights horde mobs config
+[14:41:33] [main/INFO]: No target entities specified in horde mob config, no additional entities will be targeted.
+[14:41:33] [main/INFO]: Default horde mob undeadnights:horde_zombie was read from config.
+[14:41:33] [main/INFO]: Horde mob undeadnights:elite_zombie with chance 3% was read from config.
+[14:41:33] [main/INFO]: Horde mob undeadnights:demolition_zombie with chance 6% was read from config.
+[14:41:33] [main/INFO]: Setting current difficulty level to: Level 1
+[14:41:33] [main/INFO]: Loaded difficulty config with 1 difficulty levels.
+[14:41:33] [main/ERROR]: No data fixer registered for undeadnights:horde_zombie
+[14:41:33] [main/ERROR]: No data fixer registered for undeadnights:demolition_zombie
+[14:41:33] [main/ERROR]: No data fixer registered for undeadnights:elite_zombie
+[14:41:33] [main/ERROR]: No data fixer registered for undeadnights:tnt_projectile
+[14:41:33] [main/INFO]: Registering Mod Items for undeadnights
+[14:41:33] [main/INFO]: Registering Sounds for undeadnights
+[14:41:33] [main/INFO]: Registering Mod Potions for undeadnights
+[14:41:33] [main/INFO]: Registering Item Groups for undeadnights
+[14:41:33] [main/INFO]: Hello Fabric world!
+[14:41:33] [main/ERROR]: No data fixer registered for creaking
+[14:41:33] [main/ERROR]: No data fixer registered for happy_ghast
+[14:41:33] [main/ERROR]: No data fixer registered for pale_oak_boat
+[14:41:33] [main/ERROR]: No data fixer registered for pale_oak_chest_boat
+[14:41:33] [main/ERROR]: No data fixer registered for armadillo
+[14:41:34] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[14:41:34] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 4 values
+[14:41:34] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:41:34] [main/INFO]: Created 170 recipes which will be injected into the game
+[14:41:34] [main/INFO]: Created 0 tags which will be injected into the game
+[14:41:41] [main/INFO]: Start scanning for gun packs in /workspaces/Server-minecraft/servidor_minecraft/tacz
+[14:41:41] [main/INFO]: - Suffuse-GunSmoke-Pack1.0.7--hotfix.zip, Main namespace: suffuse
+[14:41:41] [main/INFO]: - 82laffey1.1.2(1).zip, Main namespace: mk16
+[14:41:41] [main/INFO]: - [Tacz1.1.6]sxgunpack.zip, Main namespace: wyyc1991
+[14:41:41] [main/ERROR]: Failed to load extension from ZIP TTI_Gunpack-v0.1.1-0607-154832.zip. Error: No gunpack.meta.json found
+[14:41:41] [main/INFO]: - ChocolateMan V1.2.3.zip, Main namespace: qkl
+[14:41:41] [main/INFO]: - RE_Gunpack_v1.1.1_tacz1.1.7.zip, Main namespace: RESIDENT EVIL
+[14:41:41] [main/INFO]: - HareTactics_Pack_v1.0.5.zip, Main namespace: hare
+[14:41:41] [main/INFO]: - The Division pack_ver.0.3.3.zip, Main namespace: gz
+[14:41:41] [main/INFO]: - Rebel v1.0.8a.zip, Main namespace: rebel
+[14:41:41] [main/INFO]: - RFP v1.0.8 fix1.zip, Main namespace: kpp
+[14:41:41] [main/INFO]: - tacz_default_gun, Main namespace: tacz
+[14:41:41] [main/INFO]: - tactical_guns_zero.zip, Main namespace: tgz
+[14:41:41] [main/INFO]: - Cold War from 1947-1991 v0.51.zip, Main namespace: rainforest
+[14:41:41] [main/INFO]: - The Continental v1.8 hotfix.zip, Main namespace: the_continental
+[14:41:41] [main/INFO]: - Apocalypse_v1.1.4_F.zip, Main namespace: bf1
+[14:41:41] [main/ERROR]: Failed to load extension from ZIP Metal Gear Solid V ver0.1.0.zip. Error: No gunpack.meta.json found
+[14:41:41] [main/INFO]: Found 14 possible gunpack(s) and added them to resource set.
+[14:41:43] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[14:41:46] [Worker-Main-3/WARN]: Invalid path in datapack: mk16:recipes/attachments/553+g43.json, ignoring
+[14:41:46] [Worker-Main-3/WARN]: Invalid path in datapack: mk16:recipes/attachments/553+g43f.json, ignoring
+[14:41:46] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:mansions:mansion_common
+com.google.gson.JsonSyntaxException: Missing name, expected to find a string
+	at net.minecraft.class_3518.method_15265(class_3518.java:127) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_432(class_83.java:67) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_443(class_83.java:58) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[14:41:46] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:strongholds:stronghold_equipment
+com.google.gson.JsonSyntaxException: Missing name, expected to find a string
+	at net.minecraft.class_3518.method_15265(class_3518.java:127) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_432(class_83.java:67) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_443(class_83.java:58) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[14:41:46] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:strongholds:stronghold_equipment_ranged
+com.google.gson.JsonSyntaxException: Missing name, expected to find a string
+	at net.minecraft.class_3518.method_15265(class_3518.java:127) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_432(class_83.java:67) ~[server-intermediary.jar:?]
+	at net.minecraft.class_83$class_84.method_443(class_83.java:58) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[14:41:47] [main/ERROR]: Parsing error loading recipe rcp:ammo/t74_fuel
+com.google.gson.JsonSyntaxException: Unknown item 'createdieselgenerators:gasoline_bucket'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_52177(class_1856.java:135) ~[server-intermediary.jar:?]
+	at com.tacz.guns.resource.serialize.GunSmithTableIngredientSerializer.deserialize(GunSmithTableIngredientSerializer.java:18) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.serialize.GunSmithTableIngredientSerializer.deserialize(GunSmithTableIngredientSerializer.java:10) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:82) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at com.tacz.guns.crafting.GunSmithTableSerializer.fromJson(GunSmithTableSerializer.java:24) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.crafting.GunSmithTableSerializer.method_8121(GunSmithTableSerializer.java:20) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[14:41:47] [main/INFO]: Loaded 26 recipes
+[14:41:47] [main/INFO]: Loaded 3521 advancements
+[14:41:48] [main/ERROR]: Failed to load data file suffuse:knife
+com.google.gson.JsonParseException: there is no corresponding data file
+	at com.tacz.guns.resource.serialize.CommonGunIndexSerializer.deserialize(CommonGunIndexSerializer.java:19) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.serialize.CommonGunIndexSerializer.deserialize(CommonGunIndexSerializer.java:12) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.parseJson(JsonDataManager.java:75) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.apply(JsonDataManager.java:64) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.apply(CommonDataManager.java:42) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.method_18788(CommonDataManager.java:22) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[14:41:48] [main/ERROR]: Failed to load data file qkl:mu73_bayonet
+com.google.gson.JsonParseException: there is no corresponding data file
+	at com.tacz.guns.resource.serialize.CommonAttachmentIndexSerializer.deserialize(CommonAttachmentIndexSerializer.java:19) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.serialize.CommonAttachmentIndexSerializer.deserialize(CommonAttachmentIndexSerializer.java:12) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.parseJson(JsonDataManager.java:75) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.apply(JsonDataManager.java:64) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.apply(CommonDataManager.java:42) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.method_18788(CommonDataManager.java:22) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[14:41:48] [main/INFO]: Reloading grave shape (server)
+[14:41:48] [main/INFO]: Grave model and shape reload successful (server)
+[14:41:48] [main/INFO]: Reloading YIGD graveyard data (server)
+[14:41:48] [main/INFO]: Graveyard data successfully reloaded (server)
+[14:41:48] [main/INFO]: Reloading YIGD grave area overrides (server)
+[14:41:48] [main/INFO]: Grave area overrides successfully reloaded (server)
+[14:41:50] [main/INFO]: Applied 3832 biome modifications to 164 of 164 new biomes in 73.75 ms
+[14:41:50] [main/INFO]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
+[14:41:50] [main/INFO]: [majruszsdifficulty.json] Reloading configuration file took 7 milliseconds
+[14:41:50] [Server thread/INFO]: Reached SERVER_STARTING state
+[14:41:50] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[14:41:50] [Server thread/INFO]: Loading server config for mutantmonsters
+[14:41:50] [Thread-2/INFO]: Reloading server config for mutantmonsters
+[14:41:50] [Thread-2/INFO]: Reloading server config for mutantmonsters
+[14:41:50] [Server thread/ERROR]: Registry 'terraform:boat' was empty after loading
+[14:41:50] [Server thread/ERROR]: Registry 'minecraft:wolf_sound_variant' was empty after loading
+[14:41:50] [Server thread/ERROR]: Registry 'minecraft:cow_variant' was empty after loading
+[14:41:50] [Server thread/ERROR]: Registry 'minecraft:chicken_variant' was empty after loading
+[14:41:50] [Server thread/ERROR]: Registry 'minecraft:pig_variant' was empty after loading
+[14:41:50] [Server thread/ERROR]: Registry 'minecraft:wolf_variant' was empty after loading
+[14:41:50] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:41:50] [Server thread/INFO]: Loading properties
+[14:41:50] [Server thread/INFO]: Default game type: SURVIVAL
+[14:41:50] [Server thread/INFO]: Generating keypair
+[14:41:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:41:50] [Server thread/INFO]: Using epoll channel type
+[14:41:50] [Server thread/INFO]: Preparing level "world"
+[14:41:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:42:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:42:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:42:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:42:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:42:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:42:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:42:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:42:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:42:02] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:42:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:42:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:42:03] [Worker-Main-3/INFO]: Preparing spawn area: 14%
+[14:42:04] [Worker-Main-2/INFO]: Preparing spawn area: 74%
+[14:42:04] [Server thread/INFO]: Time elapsed: 6191 ms
+[14:42:04] [Server thread/INFO]: Done (14.101s)! For help, type "help"
+[14:42:04] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 36832 bytes (in 4 string chunks with the size of 10000)
+[14:44:44] [User Authenticator #1/INFO]: UUID of player Zatanna917 is 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+[14:44:44] [Server thread/INFO]: Zatanna917[/100.101.238.118:50335] logged in with entity id 138 at (244.69999998807907, 113.875, 1275.699999988079)
+[14:44:44] [Server thread/INFO]: Sending server config values to client
+[14:44:44] [Server thread/INFO]: Loading config from file...
+[14:44:45] [Server thread/INFO]: Zatanna917 joined the game
+[14:44:45] [Netty Epoll Server IO #3/INFO]: Receiving client config
+[14:44:46] [Netty Epoll Server IO #3/INFO]: Priority overwritten for player Zatanna917. Claiming: GRAVE / Robbing: INVENTORY
+[14:45:47] [User Authenticator #2/INFO]: UUID of player CGreens is 743142f2-4877-476a-a634-d5fecb04ce0d
+[14:45:47] [Server thread/INFO]: CGreens[/100.84.203.22:51202] logged in with entity id 318 at (243.78858668542418, 113.0, 1271.8691062970922)
+[14:45:47] [Server thread/INFO]: Sending server config values to client
+[14:45:47] [Server thread/INFO]: Loading config from file...
+[14:45:47] [Server thread/INFO]: CGreens joined the game
+[14:45:49] [Netty Epoll Server IO #4/INFO]: Receiving client config
+[14:45:54] [Netty Epoll Server IO #4/INFO]: Priority overwritten for player CGreens. Claiming: GRAVE / Robbing: INVENTORY
+[14:49:44] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:49:44] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:50:17] [Server thread/WARN]: Received expired chat: ':,ccccccccccccc'. Is the client/server system time unsynchronized?
+[14:50:17] [Server thread/INFO]: [Not Secure] <CGreens> :,ccccccccccccc
+[14:50:34] [Server thread/WARN]: Received expired chat: 'nu me abandones'. Is the client/server system time unsynchronized?
+[14:50:34] [Server thread/INFO]: [Not Secure] <CGreens> nu me abandones
+[14:50:35] [Server thread/WARN]: Received expired chat: ':v'. Is the client/server system time unsynchronized?
+[14:50:35] [Server thread/INFO]: [Not Secure] <CGreens> :v
+[14:50:37] [Server thread/INFO]: <Zatanna917> :c
+[14:50:39] [Server thread/WARN]: Received expired chat: ':C'. Is the client/server system time unsynchronized?
+[14:50:39] [Server thread/INFO]: [Not Secure] <CGreens> :C
+[14:50:51] [Server thread/WARN]: Received expired chat: 'te amu'. Is the client/server system time unsynchronized?
+[14:50:51] [Server thread/INFO]: [Not Secure] <CGreens> te amu
+[14:50:52] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:50:52] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:51:16] [Server thread/INFO]: <Zatanna917> :c
+[14:51:23] [Server thread/INFO]: <Zatanna917> yo te quiero mucho tambien cola sucia
+[14:51:24] [Server thread/INFO]: <Zatanna917> :;c
+[14:51:28] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[14:51:28] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[14:51:30] [Server thread/WARN]: Received expired chat: 'yo mas'. Is the client/server system time unsynchronized?
+[14:51:30] [Server thread/INFO]: [Not Secure] <CGreens> yo mas
+[14:51:31] [Server thread/WARN]: Received expired chat: 'wa'. Is the client/server system time unsynchronized?
+[14:51:31] [Server thread/INFO]: [Not Secure] <CGreens> wa
+[14:51:33] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[14:51:33] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[14:51:41] [Server thread/WARN]: Received expired chat: 'si para ti querer es lo mismo que amar'. Is the client/server system time unsynchronized?
+[14:51:41] [Server thread/INFO]: [Not Secure] <CGreens> si para ti querer es lo mismo que amar
+[14:51:42] [Server thread/INFO]: <Zatanna917> aun que ya la tistesa no se quita
+[14:51:43] [Server thread/INFO]: <Zatanna917> :,c
+[14:51:45] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:51:45] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:51:48] [Server thread/WARN]: Received expired chat: 'waaaaa'. Is the client/server system time unsynchronized?
+[14:51:48] [Server thread/INFO]: [Not Secure] <CGreens> waaaaa
+[14:51:55] [Server thread/WARN]: Received expired chat: 'besame'. Is the client/server system time unsynchronized?
+[14:51:55] [Server thread/INFO]: [Not Secure] <CGreens> besame
+[14:51:56] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:51:56] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:52:26] [Server thread/WARN]: Received expired chat: ':,3'. Is the client/server system time unsynchronized?
+[14:52:26] [Server thread/INFO]: [Not Secure] <CGreens> :,3
+[14:52:48] [Server thread/WARN]: Received expired chat: 'oe wapa'. Is the client/server system time unsynchronized?
+[14:52:48] [Server thread/INFO]: [Not Secure] <CGreens> oe wapa
+[14:52:50] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[14:52:50] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[14:52:56] [Server thread/INFO]: <Zatanna917> q
+[14:53:01] [Server thread/WARN]: Received expired chat: 'pasa q'. Is the client/server system time unsynchronized?
+[14:53:01] [Server thread/INFO]: [Not Secure] <CGreens> pasa q
+[14:53:06] [Server thread/WARN]: Received expired chat: 'mañana es año nuevo'. Is the client/server system time unsynchronized?
+[14:53:06] [Server thread/INFO]: [Not Secure] <CGreens> mañana es año nuevo
+[14:53:12] [Server thread/WARN]: Received expired chat: 'y estoy muy feliz de haberte conocido'. Is the client/server system time unsynchronized?
+[14:53:12] [Server thread/INFO]: [Not Secure] <CGreens> y estoy muy feliz de haberte conocido
+[14:53:14] [Server thread/WARN]: Received expired chat: ':,3'. Is the client/server system time unsynchronized?
+[14:53:14] [Server thread/INFO]: [Not Secure] <CGreens> :,3
+[14:53:17] [Server thread/INFO]: <Zatanna917> :3
+[14:53:20] [Server thread/INFO]: <Zatanna917> yo tambien cola sucia
+[14:53:28] [Server thread/WARN]: Received expired chat: 'te quiero mucho'. Is the client/server system time unsynchronized?
+[14:53:28] [Server thread/INFO]: [Not Secure] <CGreens> te quiero mucho
+[14:53:30] [Server thread/WARN]: Received expired chat: '<3'. Is the client/server system time unsynchronized?
+[14:53:30] [Server thread/INFO]: [Not Secure] <CGreens> <3
+[14:53:37] [Server thread/INFO]: <Zatanna917> perdon por eso de tf2
+[14:53:43] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[14:53:43] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[14:53:46] [Server thread/WARN]: Received expired chat: 'esta bien'. Is the client/server system time unsynchronized?
+[14:53:46] [Server thread/INFO]: [Not Secure] <CGreens> esta bien
+[14:53:46] [Server thread/INFO]: <Zatanna917> pero hyuze ayer me dijo que lo tenia muy abandonado con el sv
+[14:53:49] [Server thread/INFO]: <Zatanna917> y no puede con todo
+[14:53:50] [Server thread/WARN]: Received expired chat: 'es tu pasion ahora'. Is the client/server system time unsynchronized?
+[14:53:50] [Server thread/INFO]: [Not Secure] <CGreens> es tu pasion ahora
+[14:53:53] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:53:53] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:54:05] [Server thread/INFO]: <Zatanna917> ademas qeu hay que ver se va alv lo del 2fort y turbine 24/7
+[14:54:16] [Server thread/INFO]: <Zatanna917> capas y lo hacemos una especie de casual jsjsjs
+[14:54:21] [Server thread/INFO]: <Zatanna917> con mas mapas
+[14:54:29] [Server thread/WARN]: Received expired chat: 'weno :,c'. Is the client/server system time unsynchronized?
+[14:54:29] [Server thread/INFO]: [Not Secure] <CGreens> weno :,c
+[14:54:45] [Server thread/WARN]: Received expired chat: 'ya no te quiero decir nada del tema pq no quiero que desconfies de mi'. Is the client/server system time unsynchronized?
+[14:54:45] [Server thread/INFO]: [Not Secure] <CGreens> ya no te quiero decir nada del tema pq no quiero que desconfies de mi
+[14:54:49] [Server thread/WARN]: Received expired chat: 'y te enojes'. Is the client/server system time unsynchronized?
+[14:54:49] [Server thread/INFO]: [Not Secure] <CGreens> y te enojes
+[14:54:51] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[14:54:51] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[14:54:59] [Server thread/INFO]: <Zatanna917> :,c
+[14:55:05] [Server thread/INFO]: <Zatanna917> abrazo wa
+[14:55:07] [Server thread/WARN]: Received expired chat: 'solo quiero una relacion q me haga feliz'. Is the client/server system time unsynchronized?
+[14:55:07] [Server thread/INFO]: [Not Secure] <CGreens> solo quiero una relacion q me haga feliz
+[14:55:12] [Server thread/WARN]: Received expired chat: 'nu que seamos toxicos siempre'. Is the client/server system time unsynchronized?
+[14:55:12] [Server thread/INFO]: [Not Secure] <CGreens> nu que seamos toxicos siempre
+[14:55:14] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[14:55:14] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[14:55:18] [Server thread/WARN]: Received expired chat: 'en especial por mi culpa'. Is the client/server system time unsynchronized?
+[14:55:18] [Server thread/INFO]: [Not Secure] <CGreens> en especial por mi culpa
+[14:55:23] [Server thread/WARN]: Received expired chat: 'y mi forma tan inmadura'. Is the client/server system time unsynchronized?
+[14:55:23] [Server thread/INFO]: [Not Secure] <CGreens> y mi forma tan inmadura
+[14:55:24] [Server thread/INFO]: <Zatanna917> _.c
+[14:55:24] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[14:55:24] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[14:55:25] [Server thread/INFO]: <Zatanna917> :,c
+[14:55:42] [Server thread/INFO]: <Zatanna917> perdon si tus vacaciones no son lo que esperabas :,c
+[14:55:56] [Server thread/WARN]: Received expired chat: 'no importa :,c'. Is the client/server system time unsynchronized?
+[14:55:56] [Server thread/INFO]: [Not Secure] <CGreens> no importa :,c
+[14:56:05] [Server thread/WARN]: Received expired chat: 'si tu server te hace feliz ahora'. Is the client/server system time unsynchronized?
+[14:56:05] [Server thread/INFO]: [Not Secure] <CGreens> si tu server te hace feliz ahora
+[14:56:09] [Server thread/WARN]: Received expired chat: 'supongo que tengo que estar de acuerdo'. Is the client/server system time unsynchronized?
+[14:56:09] [Server thread/INFO]: [Not Secure] <CGreens> supongo que tengo que estar de acuerdo
+[14:56:11] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[14:56:11] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[14:56:19] [Server thread/WARN]: Received expired chat: 'ya no soy lo unico importante'. Is the client/server system time unsynchronized?
+[14:56:19] [Server thread/INFO]: [Not Secure] <CGreens> ya no soy lo unico importante
+[14:56:20] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:56:20] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:56:35] [Server thread/INFO]: <Zatanna917> lo eres :,c
+[14:56:52] [Server thread/INFO]: <Zatanna917> :,c
+[14:57:03] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:57:03] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:57:10] [Server thread/WARN]: Received expired chat: 'pero ahora estas mas metida en el sv'. Is the client/server system time unsynchronized?
+[14:57:10] [Server thread/INFO]: [Not Secure] <CGreens> pero ahora estas mas metida en el sv
+[14:57:12] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:57:12] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:57:23] [Server thread/INFO]: <Zatanna917> tiste
+[14:57:35] [Server thread/WARN]: Received expired chat: 'pero ya no te quiero llevar la contraria con eso'. Is the client/server system time unsynchronized?
+[14:57:35] [Server thread/INFO]: [Not Secure] <CGreens> pero ya no te quiero llevar la contraria con eso
+[14:57:41] [Server thread/WARN]: Received expired chat: 'sino dejarte hacer lo que quieras'. Is the client/server system time unsynchronized?
+[14:57:41] [Server thread/INFO]: [Not Secure] <CGreens> sino dejarte hacer lo que quieras
+[14:57:43] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:57:43] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:57:46] [Server thread/INFO]: <Zatanna917> wa
+[14:57:50] [Server thread/INFO]: <Zatanna917> me haces sentir mas mal :,c
+[14:57:51] [Server thread/WARN]: Received expired chat: 'aunque mis vacaciones no eran lo que queria'. Is the client/server system time unsynchronized?
+[14:57:51] [Server thread/INFO]: [Not Secure] <CGreens> aunque mis vacaciones no eran lo que queria
+[14:57:56] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:57:56] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:58:06] [Server thread/WARN]: Received expired chat: 'pero no busco hacerte sentir mal wa'. Is the client/server system time unsynchronized?
+[14:58:06] [Server thread/INFO]: [Not Secure] <CGreens> pero no busco hacerte sentir mal wa
+[14:58:15] [Server thread/WARN]: Received expired chat: 'solo que me pone triste'. Is the client/server system time unsynchronized?
+[14:58:15] [Server thread/INFO]: [Not Secure] <CGreens> solo que me pone triste
+[14:58:20] [Server thread/WARN]: Received expired chat: 'pero si eres feliz con eso'. Is the client/server system time unsynchronized?
+[14:58:20] [Server thread/INFO]: [Not Secure] <CGreens> pero si eres feliz con eso
+[14:58:29] [Server thread/WARN]: Received expired chat: 'no me queda de otra que aceptar la realidad'. Is the client/server system time unsynchronized?
+[14:58:29] [Server thread/INFO]: [Not Secure] <CGreens> no me queda de otra que aceptar la realidad
+[14:58:30] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:58:30] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:58:39] [Server thread/INFO]: <Zatanna917> :,c
+[14:59:13] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[14:59:13] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[14:59:27] [Server thread/INFO]: <Zatanna917> wa
+[14:59:28] [Server thread/INFO]: <Zatanna917> :,c
+[14:59:31] [Server thread/INFO]: <Zatanna917> me siento peor
+[15:00:05] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[15:00:05] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[15:00:13] [Server thread/INFO]: <Zatanna917> :,c
+[15:00:43] [Server thread/WARN]: Received expired chat: 'pero dime si eres feliz con lo del sv'. Is the client/server system time unsynchronized?
+[15:00:43] [Server thread/INFO]: [Not Secure] <CGreens> pero dime si eres feliz con lo del sv
+[15:00:44] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:00:44] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:00:50] [Server thread/INFO]: <Zatanna917> siu
+[15:00:51] [Server thread/INFO]: <Zatanna917> :,c
+[15:00:56] [Server thread/INFO]: <Zatanna917> pero tambien me pone tiste
+[15:01:02] [Server thread/WARN]: Received expired chat: 'entonces estoy bien si te hace feliz'. Is the client/server system time unsynchronized?
+[15:01:02] [Server thread/INFO]: [Not Secure] <CGreens> entonces estoy bien si te hace feliz
+[15:01:04] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[15:01:04] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[15:01:07] [Server thread/INFO]: <Zatanna917> pq casi todos lo que invite solo unos cuantitos se unen :,c
+[15:01:18] [Server thread/WARN]: Received expired chat: 'pasa q andan de su vida'. Is the client/server system time unsynchronized?
+[15:01:18] [Server thread/INFO]: [Not Secure] <CGreens> pasa q andan de su vida
+[15:01:23] [Server thread/WARN]: Received expired chat: 'se unieron por apoyar'. Is the client/server system time unsynchronized?
+[15:01:23] [Server thread/INFO]: [Not Secure] <CGreens> se unieron por apoyar
+[15:01:35] [Server thread/WARN]: Received expired chat: 'sino haz lo que planeabas hacerle al sv'. Is the client/server system time unsynchronized?
+[15:01:35] [Server thread/INFO]: [Not Secure] <CGreens> sino haz lo que planeabas hacerle al sv
+[15:01:39] [Server thread/INFO]: <Zatanna917> vidya :c
+[15:01:42] [Server thread/WARN]: Received expired chat: 'y dejalo q vaya atrayendo gente'. Is the client/server system time unsynchronized?
+[15:01:42] [Server thread/INFO]: [Not Secure] <CGreens> y dejalo q vaya atrayendo gente
+[15:01:51] [Server thread/INFO]: Zatanna917 has made the advancement [Voluntary Exile]
+[15:02:02] [Server thread/WARN]: Received expired chat: 'pasa q nu pude atraer gente'. Is the client/server system time unsynchronized?
+[15:02:02] [Server thread/INFO]: [Not Secure] <CGreens> pasa q nu pude atraer gente
+[15:02:09] [Server thread/WARN]: Received expired chat: 'pq ya no querian nada mas'. Is the client/server system time unsynchronized?
+[15:02:09] [Server thread/INFO]: [Not Secure] <CGreens> pq ya no querian nada mas
+[15:02:23] [Server thread/INFO]: <Zatanna917> :,c
+[15:02:35] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:02:35] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:02:36] [Server thread/INFO]: <Zatanna917> por cierto
+[15:02:41] [Server thread/INFO]: <Zatanna917> tu sabes hacer bots de discord?
+[15:02:48] [Server thread/WARN]: Received expired chat: 'hacer no'. Is the client/server system time unsynchronized?
+[15:02:48] [Server thread/INFO]: [Not Secure] <CGreens> hacer no
+[15:02:52] [Server thread/WARN]: Received expired chat: 'si a caso configurar'. Is the client/server system time unsynchronized?
+[15:02:52] [Server thread/INFO]: [Not Secure] <CGreens> si a caso configurar
+[15:02:57] [Server thread/WARN]: Received expired chat: 'pero no quiero hacer mas nada'. Is the client/server system time unsynchronized?
+[15:02:57] [Server thread/INFO]: [Not Secure] <CGreens> pero no quiero hacer mas nada
+[15:03:01] [Server thread/INFO]: <Zatanna917> osea tener un bot personalizado
+[15:03:03] [Server thread/WARN]: Received expired chat: 'pq despues es "innecesario"'. Is the client/server system time unsynchronized?
+[15:03:03] [Server thread/INFO]: [Not Secure] <CGreens> pq despues es "innecesario"
+[15:03:11] [Server thread/INFO]: <Zatanna917> nu des bola
+[15:03:15] [Server thread/INFO]: <Zatanna917> mientras me guste a mi
+[15:03:18] [Server thread/INFO]: <Zatanna917> ya
+[15:03:21] [Server thread/INFO]: <Zatanna917> osea tener un bot personalizado
+[15:03:25] [Server thread/WARN]: Received expired chat: 'pasa q nu defienses'. Is the client/server system time unsynchronized?
+[15:03:25] [Server thread/INFO]: [Not Secure] <CGreens> pasa q nu defienses
+[15:03:28] [Server thread/WARN]: Received expired chat: 'y no no se eso'. Is the client/server system time unsynchronized?
+[15:03:28] [Server thread/INFO]: [Not Secure] <CGreens> y no no se eso
+[15:03:29] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[15:03:29] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[15:03:38] [Server thread/INFO]: <Zatanna917> con un nick personalizado y una imagen personalizada
+[15:03:48] [Server thread/WARN]: Received expired chat: 'tendria q ver'. Is the client/server system time unsynchronized?
+[15:03:48] [Server thread/INFO]: [Not Secure] <CGreens> tendria q ver
+[15:03:49] [Server thread/WARN]: Received expired chat: 'wa'. Is the client/server system time unsynchronized?
+[15:03:49] [Server thread/INFO]: [Not Secure] <CGreens> wa
+[15:03:51] [Server thread/WARN]: Zatanna917 moved wrongly!
+[15:03:58] [Server thread/WARN]: Received expired chat: 'pero cuando me ataquen como admin'. Is the client/server system time unsynchronized?
+[15:03:58] [Server thread/INFO]: [Not Secure] <CGreens> pero cuando me ataquen como admin
+[15:04:02] [Server thread/WARN]: Received expired chat: 'defiendeme por lo menos'. Is the client/server system time unsynchronized?
+[15:04:02] [Server thread/INFO]: [Not Secure] <CGreens> defiendeme por lo menos
+[15:04:03] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:04:03] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:04:06] [Server thread/INFO]: <Zatanna917> weno :3
+[15:04:23] [Server thread/WARN]: Received expired chat: 'abrazo'. Is the client/server system time unsynchronized?
+[15:04:23] [Server thread/INFO]: [Not Secure] <CGreens> abrazo
+[15:04:24] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[15:04:24] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[15:04:53] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[15:04:53] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[15:05:11] [Server thread/INFO]: <Zatanna917> :#
+[15:05:13] [Server thread/INFO]: <Zatanna917> :3
+[15:05:14] [Server thread/INFO]: <Zatanna917> abrazo
+[15:05:16] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[15:05:16] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[15:05:21] [Server thread/WARN]: Received expired chat: 'entonces para ti'. Is the client/server system time unsynchronized?
+[15:05:21] [Server thread/INFO]: [Not Secure] <CGreens> entonces para ti
+[15:05:24] [Server thread/WARN]: Received expired chat: 'si querer es amar'. Is the client/server system time unsynchronized?
+[15:05:24] [Server thread/INFO]: [Not Secure] <CGreens> si querer es amar
+[15:05:27] [Server thread/WARN]: Received expired chat: 'tu me amas?'. Is the client/server system time unsynchronized?
+[15:05:27] [Server thread/INFO]: [Not Secure] <CGreens> tu me amas?
+[15:05:28] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:05:28] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:05:57] [Server thread/WARN]: Received expired chat: ':,ccccc'. Is the client/server system time unsynchronized?
+[15:05:57] [Server thread/INFO]: [Not Secure] <CGreens> :,ccccc
+[15:06:02] [Server thread/INFO]: <Zatanna917> owo
+[15:06:05] [Server thread/INFO]: <Zatanna917> vamo a buscar playa
+[15:06:12] [Server thread/WARN]: Received expired chat: 'responde la pregunta'. Is the client/server system time unsynchronized?
+[15:06:12] [Server thread/INFO]: [Not Secure] <CGreens> responde la pregunta
+[15:06:13] [Server thread/WARN]: Received expired chat: '>:c'. Is the client/server system time unsynchronized?
+[15:06:13] [Server thread/INFO]: [Not Secure] <CGreens> >:c
+[15:06:22] [Server thread/INFO]: <Zatanna917> si
+[15:06:23] [Server thread/INFO]: <Zatanna917> :3
+[15:06:29] [Server thread/INFO]: <Zatanna917> para mi es lo mismo
+[15:06:30] [Server thread/INFO]: <Zatanna917> owo
+[15:06:53] [Server thread/WARN]: Received expired chat: 'entonces'. Is the client/server system time unsynchronized?
+[15:06:53] [Server thread/INFO]: [Not Secure] <CGreens> entonces
+[15:06:57] [Server thread/WARN]: Received expired chat: 'si me tienes afecto?'. Is the client/server system time unsynchronized?
+[15:06:57] [Server thread/INFO]: [Not Secure] <CGreens> si me tienes afecto?
+[15:06:58] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:06:58] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:07:01] [Server thread/INFO]: <Zatanna917> si
+[15:07:01] [Server thread/INFO]: <Zatanna917> :3
+[15:07:08] [Server thread/WARN]: Received expired chat: ':,D'. Is the client/server system time unsynchronized?
+[15:07:08] [Server thread/INFO]: [Not Secure] <CGreens> :,D
+[15:07:32] [Server thread/WARN]: Zatanna917 moved wrongly!
+[15:07:33] [Server thread/WARN]: Received expired chat: 'wa'. Is the client/server system time unsynchronized?
+[15:07:33] [Server thread/INFO]: [Not Secure] <CGreens> wa
+[15:07:40] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[15:07:40] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[15:07:49] [Server thread/INFO]: <Zatanna917> se quemo en el fiego
+[15:07:50] [Server thread/INFO]: <Zatanna917> fuego
+[15:07:51] [Server thread/INFO]: <Zatanna917> el avion
+[15:07:52] [Server thread/INFO]: <Zatanna917> wa
+[15:07:55] [Server thread/WARN]: Received expired chat: ':;cccccccccccccccc'. Is the client/server system time unsynchronized?
+[15:07:55] [Server thread/INFO]: [Not Secure] <CGreens> :;cccccccccccccccc
+[15:07:59] [Server thread/WARN]: Received expired chat: 'sino'. Is the client/server system time unsynchronized?
+[15:07:59] [Server thread/INFO]: [Not Secure] <CGreens> sino
+[15:08:04] [Server thread/WARN]: Received expired chat: 'anda tu en el avion grande'. Is the client/server system time unsynchronized?
+[15:08:04] [Server thread/INFO]: [Not Secure] <CGreens> anda tu en el avion grande
+[15:08:06] [Server thread/WARN]: Received expired chat: ':,3'. Is the client/server system time unsynchronized?
+[15:08:06] [Server thread/INFO]: [Not Secure] <CGreens> :,3
+[15:08:22] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:08:22] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:08:49] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[15:09:03] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[15:09:04] [Server thread/INFO]: <Zatanna917> A
+[15:09:09] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[15:09:09] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[15:09:11] [Server thread/WARN]: Received expired chat: 'wa'. Is the client/server system time unsynchronized?
+[15:09:11] [Server thread/INFO]: [Not Secure] <CGreens> wa
+[15:09:12] [Server thread/INFO]: <Zatanna917> lo tenia en el inventario xd
+[15:09:17] [Server thread/WARN]: Received expired chat: ':;c'. Is the client/server system time unsynchronized?
+[15:09:17] [Server thread/INFO]: [Not Secure] <CGreens> :;c
+[15:10:18] [Server thread/INFO]: <Zatanna917> :;c
+[15:10:19] [Server thread/WARN]: Scarlet Biplane (vehicle of Zatanna917) moved too quickly! -0.10412147626135493,-6.245773245976096,-7.994668242844227
+[15:10:19] [Server thread/WARN]: Scarlet Biplane (vehicle of Zatanna917) moved too quickly! -0.11565129472811009,-7.00137759058174,-8.87242414807838
+[15:10:19] [Server thread/WARN]: Scarlet Biplane (vehicle of Zatanna917) moved too quickly! -0.12715907004061933,-7.761783982899658,-9.753391739104245
+[15:10:19] [Server thread/WARN]: Scarlet Biplane (vehicle of Zatanna917) moved too quickly! -0.1386483812262327,-8.523653953590156,-10.639770819567502
+[15:10:24] [Server thread/INFO]: <Zatanna917> :,3
+[15:10:28] [Server thread/WARN]: Received expired chat: ':,3'. Is the client/server system time unsynchronized?
+[15:10:28] [Server thread/INFO]: [Not Secure] <CGreens> :,3
+[15:10:35] [Server thread/WARN]: Received expired chat: 'waa'. Is the client/server system time unsynchronized?
+[15:10:35] [Server thread/INFO]: [Not Secure] <CGreens> waa
+[15:10:58] [ForkJoinPool.commonPool-worker-5/ERROR]: Thread dumps: 
+ForkJoinPool.commonPool-worker-5: 
+	at java.base/java.lang.Thread.getStackTrace(Thread.java:1619)
+	at knot//net.minecraft.class_5798.method_39936(class_5798.java:92)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at knot//net.minecraft.class_5798.method_33564(class_5798.java:82)
+	at knot//net.minecraft.class_5820.method_43156(class_5820.java:49)
+	at knot//net.minecraft.class_6566.method_43056(class_6566.java:51)
+	at knot//net.petemc.undeadnights.util.SpawnLocationFinder.findNearbySurfaceSpawnPosition(SpawnLocationFinder.java:84)
+	at knot//net.petemc.undeadnights.util.SpawnProcess.spawnHordeMob(SpawnProcess.java:343)
+	at knot//net.petemc.undeadnights.util.SpawnProcess.spawnHordeImplementation(SpawnProcess.java:165)
+	at knot//net.petemc.undeadnights.util.SpawnProcess.lambda$asynchronousHordeSpawner$0(SpawnProcess.java:57)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[15:10:58] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:58] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:58] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:58] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:58] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:58] [Server thread/WARN]: Zatanna917 moved wrongly!
+[15:10:58] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:59] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:59] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:59] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:59] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:59] [Server thread/WARN]: Spawning horde for player Zatanna917 failed!
+[15:10:59] [Server thread/INFO]: Spawning horde for player Zatanna917 failed.
+[15:10:59] [Server thread/WARN]: CGreens moved wrongly!
+[15:15:56] [Server thread/INFO]: Zatanna917 was slain by Enderman
+[15:16:01] [Server thread/WARN]: Received expired chat: 'waaa'. Is the client/server system time unsynchronized?
+[15:16:01] [Server thread/INFO]: [Not Secure] <CGreens> waaa
+[15:16:03] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 95.500000, 95.000000, 430.500000]
+[15:16:04] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at 95, 95, 430, minecraft:overworld
+[15:16:13] [Server thread/INFO]: Zatanna917 was slain by Ravager
+[15:16:17] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 95.500000, 95.000000, 430.500000]
+[15:16:19] [Server thread/INFO]: Zatanna917 was slain by Ravager
+[15:16:19] [Server thread/INFO]: Did not backup data (grave data empty)
+[15:16:21] [Server thread/INFO]: Villager class_1646['Villager'/2724, l='ServerLevel[world]', x=133.40, y=103.00, z=401.21] died, message: 'Villager was slain by Vindicator'
+[15:16:24] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 95.500000, 97.000000, 428.500000]
+[15:16:25] [Server thread/INFO]: Zatanna917 was slain by Ravager
+[15:16:25] [Server thread/INFO]: Did not backup data (grave data empty)
+[15:16:31] [Server thread/INFO]: <Zatanna917> wa me hace spawn camp
+[15:16:35] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 95.500000, 97.000000, 428.500000]
+[15:16:38] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at 96, 98, 426, minecraft:overworld
+[15:16:56] [Server thread/INFO]: CGreens was slain by Vindicator
+[15:17:02] [Server thread/WARN]: Received expired chat: 'waaa'. Is the client/server system time unsynchronized?
+[15:17:02] [Server thread/INFO]: [Not Secure] <CGreens> waaa
+[15:17:10] [Server thread/INFO]: [Zatanna917: Teleported CGreens to Zatanna917]
+[15:17:13] [Server thread/INFO]: Villager class_1646['Farmer'/2748, l='ServerLevel[world]', x=76.53, y=88.00, z=437.30] died, message: 'Farmer was slain by Zombie'
+[15:17:25] [Server thread/INFO]: CGreens claimed a grave belonging to CGreens at 143, 106, 392, minecraft:overworld
+[15:17:48] [Server thread/INFO]: Villager class_1646['Farmer'/2789, l='ServerLevel[world]', x=125.30, y=100.00, z=372.50] died, message: 'Farmer was slain by Horde Zombie'
+[15:17:59] [Server thread/INFO]: <Zatanna917> como corren los aldeanos
+[15:18:15] [Server thread/WARN]: Received expired chat: 'debe ser pq andan por aca'. Is the client/server system time unsynchronized?
+[15:18:15] [Server thread/INFO]: [Not Secure] <CGreens> debe ser pq andan por aca
+[15:19:52] [Server thread/WARN]: Received expired chat: 'termino la raid?'. Is the client/server system time unsynchronized?
+[15:19:52] [Server thread/INFO]: [Not Secure] <CGreens> termino la raid?
+[15:19:53] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[15:19:53] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[15:19:58] [Server thread/INFO]: <Zatanna917> falta 1
+[15:20:14] [Server thread/INFO]: <Zatanna917> en el avion
+[15:20:35] [Server thread/WARN]: Received expired chat: 'ire a comer wapa'. Is the client/server system time unsynchronized?
+[15:20:35] [Server thread/INFO]: [Not Secure] <CGreens> ire a comer wapa
+[15:20:37] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:20:37] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:20:41] [Server thread/INFO]: <Zatanna917> wa
+[15:20:42] [Server thread/INFO]: <Zatanna917> weno
+[15:20:42] [Server thread/INFO]: <Zatanna917> :,3
+[15:20:45] [Server thread/INFO]: <Zatanna917> provecho
+[15:20:50] [Server thread/WARN]: Received expired chat: 'gracias'. Is the client/server system time unsynchronized?
+[15:20:50] [Server thread/INFO]: [Not Secure] <CGreens> gracias
+[15:20:51] [Server thread/WARN]: Received expired chat: ':,3'. Is the client/server system time unsynchronized?
+[15:20:51] [Server thread/INFO]: [Not Secure] <CGreens> :,3
+[15:20:54] [Server thread/WARN]: Received expired chat: 'te quiero mucho'. Is the client/server system time unsynchronized?
+[15:20:54] [Server thread/INFO]: [Not Secure] <CGreens> te quiero mucho
+[15:21:19] [Server thread/WARN]: Received expired chat: '<3'. Is the client/server system time unsynchronized?
+[15:21:19] [Server thread/INFO]: [Not Secure] <CGreens> <3
+[15:21:23] [Server thread/INFO]: <Zatanna917> :3
+[15:21:44] [Server thread/INFO]: [Zatanna917: Set own game mode to Spectator Mode]
+[15:22:02] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[15:24:38] [Server thread/INFO]: [Zatanna917: Set own game mode to Spectator Mode]
+[15:25:31] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[15:25:33] [Server thread/INFO]: Zatanna917 was slain by Ravager
+[15:25:39] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 197.500000, 90.000000, 401.500000]
+[15:25:39] [Server thread/INFO]: Zatanna917 was slain by Ravager
+[15:25:39] [Server thread/INFO]: Did not backup data (grave data empty)
+[15:25:43] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[15:25:45] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 197.500000, 90.000000, 401.500000]
+[15:25:46] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at 197, 90, 401, minecraft:overworld
+[15:26:05] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[15:26:49] [Server thread/INFO]: Villager class_1646['Shepherd'/2758, l='ServerLevel[world]', x=203.90, y=81.92, z=415.11] died, message: 'Shepherd bled to death'
+[15:28:19] [Server thread/INFO]: Zatanna917 was slain by Vindicator
+[15:28:24] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 133.500000, 102.000000, 439.500000]
+[15:28:25] [Server thread/INFO]: Zatanna917 was slain by Vindicator
+[15:28:25] [Server thread/INFO]: Did not backup data (grave data empty)
+[15:28:29] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[15:28:30] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 133.500000, 102.000000, 439.500000]
+[15:28:31] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at 133, 102, 439, minecraft:overworld
+[15:28:52] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[15:32:16] [Server thread/INFO]: [Zatanna917: Set own game mode to Spectator Mode]
+[15:32:32] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[15:32:56] [Server thread/WARN]: Received expired chat: 'oa:D'. Is the client/server system time unsynchronized?
+[15:32:56] [Server thread/INFO]: [Not Secure] <CGreens> oa:D
+[15:33:00] [Server thread/INFO]: <Zatanna917> oa owo
+[15:33:18] [Server thread/WARN]: Received expired chat: 'wa aun esta la raid'. Is the client/server system time unsynchronized?
+[15:33:18] [Server thread/INFO]: [Not Secure] <CGreens> wa aun esta la raid
+[15:33:20] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:33:20] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:33:49] [Server thread/INFO]: Zatanna917 was slain by Vex
+[15:33:54] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 199.500000, 83.000000, 406.500000]
+[15:33:55] [Server thread/WARN]: Received expired chat: 'D:'. Is the client/server system time unsynchronized?
+[15:33:55] [Server thread/INFO]: [Not Secure] <CGreens> D:
+[15:33:56] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at 199, 83, 405, minecraft:overworld
+[15:34:01] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[15:34:39] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[15:35:44] [Server thread/INFO]: Villager class_1646['Shepherd'/2772, l='ServerLevel[world]', x=124.70, y=102.00, z=445.50] died, message: 'Shepherd was slain by Vindicator'
+[15:38:31] [Server thread/INFO]: <Zatanna917> owo
+[15:38:43] [Server thread/INFO]: Zatanna917 was slain by Vindicator
+[15:38:45] [Server thread/WARN]: Received expired chat: 'termino la raid?'. Is the client/server system time unsynchronized?
+[15:38:45] [Server thread/INFO]: [Not Secure] <CGreens> termino la raid?
+[15:38:47] [Server thread/WARN]: Received expired chat: 'waaa'. Is the client/server system time unsynchronized?
+[15:38:47] [Server thread/INFO]: [Not Secure] <CGreens> waaa
+[15:38:47] [Server thread/INFO]: [Zatanna917: Set own game mode to Creative Mode]
+[15:38:49] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to 120.500000, 100.000000, 434.500000]
+[15:38:50] [Server thread/INFO]: Zatanna917 claimed a grave belonging to Zatanna917 at 120, 100, 434, minecraft:overworld
+[15:39:01] [Server thread/INFO]: <Zatanna917> aun ño
+[15:40:01] [Server thread/WARN]: CGreens moved wrongly!
+[15:41:30] [Server thread/INFO]: <Zatanna917> faltan 2
+[15:41:40] [Server thread/WARN]: Received expired chat: 'noe stoy en la aldea'. Is the client/server system time unsynchronized?
+[15:41:40] [Server thread/INFO]: [Not Secure] <CGreens> noe stoy en la aldea
+[15:41:42] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:41:42] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:41:53] [Server thread/INFO]: Zatanna917 has completed the challenge [Hero of the Village]
+[15:41:53] [Server thread/INFO]: CGreens has completed the challenge [Hero of the Village]
+[15:41:54] [Server thread/INFO]: <Zatanna917> listo
+[15:42:01] [Server thread/INFO]: <Zatanna917> donde estas
+[15:42:03] [Server thread/INFO]: <Zatanna917> D:
+[15:42:06] [Server thread/INFO]: [Zatanna917: Set own game mode to Survival Mode]
+[15:42:08] [Server thread/WARN]: Received expired chat: 'yendo a casa'. Is the client/server system time unsynchronized?
+[15:42:08] [Server thread/INFO]: [Not Secure] <CGreens> yendo a casa
+[15:42:09] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[15:42:09] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[15:42:13] [Server thread/INFO]: <Zatanna917> wa
+[15:42:21] [Server thread/WARN]: Received expired chat: 'y estaba cazando ovejas'. Is the client/server system time unsynchronized?
+[15:42:21] [Server thread/INFO]: [Not Secure] <CGreens> y estaba cazando ovejas
+[15:42:22] [Server thread/INFO]: <Zatanna917> me abandonaste
+[15:42:22] [Server thread/WARN]: Received expired chat: ':,3'. Is the client/server system time unsynchronized?
+[15:42:22] [Server thread/INFO]: [Not Secure] <CGreens> :,3
+[15:42:23] [Server thread/INFO]: <Zatanna917> :,c
+[15:42:24] [Server thread/WARN]: Received expired chat: 'waaaa'. Is the client/server system time unsynchronized?
+[15:42:24] [Server thread/INFO]: [Not Secure] <CGreens> waaaa
+[15:42:25] [Server thread/WARN]: Received expired chat: 'nuu'. Is the client/server system time unsynchronized?
+[15:42:25] [Server thread/INFO]: [Not Secure] <CGreens> nuu
+[15:42:27] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:42:27] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:42:31] [Server thread/INFO]: <Zatanna917> :,3
+[15:42:32] [Server thread/WARN]: Received expired chat: 'pasa q necesitamos la lana'. Is the client/server system time unsynchronized?
+[15:42:32] [Server thread/INFO]: [Not Secure] <CGreens> pasa q necesitamos la lana
+[15:42:33] [Server thread/WARN]: Received expired chat: 'waa'. Is the client/server system time unsynchronized?
+[15:42:33] [Server thread/INFO]: [Not Secure] <CGreens> waa
+[15:42:33] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to CGreens]
+[15:43:06] [Server thread/INFO]: CGreens has made the advancement [The Guardian]
+[15:43:21] [Server thread/WARN]: CGreens moved wrongly!
+[15:43:26] [Server thread/INFO]: [Zatanna917: Teleported Zatanna917 to CGreens]
+[15:44:17] [Server thread/WARN]: Received expired chat: 'solo tengo 5 de lana'. Is the client/server system time unsynchronized?
+[15:44:17] [Server thread/INFO]: [Not Secure] <CGreens> solo tengo 5 de lana
+[15:44:18] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[15:44:18] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[15:45:00] [Server thread/WARN]: Received expired chat: ':D'. Is the client/server system time unsynchronized?
+[15:45:00] [Server thread/INFO]: [Not Secure] <CGreens> :D
+[15:45:05] [Server thread/INFO]: <Zatanna917> ;3
+[15:45:19] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[15:45:19] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[15:46:11] [Server thread/INFO]: <Zatanna917> volare un poco arriba puede que haya braco volador
+[15:46:13] [Server thread/INFO]: <Zatanna917> :p
+[15:47:00] [Server thread/INFO]: <Zatanna917> no hay lana?
+[15:47:05] [Server thread/INFO]: <Zatanna917> me muero de frio
+[15:47:05] [Server thread/WARN]: Scarlet Biplane (vehicle of Zatanna917) moved too quickly! 3.3748421415040184,2.0245869866105295,9.54046196722038
+[15:47:05] [Server thread/WARN]: Scarlet Biplane (vehicle of Zatanna917) moved too quickly! 3.5735681929674,2.14344670536164,10.102088906708332
+[15:47:05] [Server thread/WARN]: Scarlet Biplane (vehicle of Zatanna917) moved too quickly! 3.7722819969872035,2.262296352931571,10.663793335404534
+[15:47:05] [Server thread/WARN]: Scarlet Biplane (vehicle of Zatanna917) moved too quickly! 3.9709765429073514,2.3811387606720587,11.225578850878946
+[15:47:07] [Server thread/WARN]: Received expired chat: 'solo tengo 5 :c'. Is the client/server system time unsynchronized?
+[15:47:07] [Server thread/INFO]: [Not Secure] <CGreens> solo tengo 5 :c
+[15:47:20] [Server thread/WARN]: Received expired chat: 'en casa debe haber un poco'. Is the client/server system time unsynchronized?
+[15:47:20] [Server thread/INFO]: [Not Secure] <CGreens> en casa debe haber un poco
+[15:47:28] [Server thread/WARN]: Received expired chat: 'sino vamos y te haces unos pantalones'. Is the client/server system time unsynchronized?
+[15:47:28] [Server thread/INFO]: [Not Secure] <CGreens> sino vamos y te haces unos pantalones
+[15:47:29] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[15:47:29] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[15:47:49] [Server thread/WARN]: CGreens moved wrongly!
+[15:48:08] [Server thread/WARN]: Zatanna917 moved wrongly!
+[15:49:30] [Server thread/INFO]: [Zatanna917: Gave 1 [Golden Leggings] to Zatanna917]
+[15:49:48] [Server thread/INFO]: [Zatanna917: Gave 300 [Gold Ingot] to Zatanna917]
+[15:50:50] [Server thread/WARN]: Received expired chat: ':D'. Is the client/server system time unsynchronized?
+[15:50:50] [Server thread/INFO]: [Not Secure] <CGreens> :D
+[15:50:56] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[15:50:56] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[15:51:34] [Server thread/WARN]: Received expired chat: 'despues hay que ver como jhacemos pa la polvora'. Is the client/server system time unsynchronized?
+[15:51:34] [Server thread/INFO]: [Not Secure] <CGreens> despues hay que ver como jhacemos pa la polvora
+[15:51:35] [Server thread/WARN]: Received expired chat: 'qwp'. Is the client/server system time unsynchronized?
+[15:51:35] [Server thread/INFO]: [Not Secure] <CGreens> qwp
+[15:51:41] [Server thread/INFO]: <Zatanna917> okis uwu
+[15:51:52] [Server thread/INFO]: <Zatanna917> sino hagamos granja de creepers y ya owo
+[15:52:03] [Server thread/WARN]: Received expired chat: 'siu owo'. Is the client/server system time unsynchronized?
+[15:52:03] [Server thread/INFO]: [Not Secure] <CGreens> siu owo
+[15:52:09] [Server thread/WARN]: Received expired chat: 'durmamos primero'. Is the client/server system time unsynchronized?
+[15:52:09] [Server thread/INFO]: [Not Secure] <CGreens> durmamos primero
+[15:52:10] [Server thread/INFO]: <Zatanna917> duerme uwu
+[15:52:12] [Server thread/WARN]: Received expired chat: 'asi salimos a explorar'. Is the client/server system time unsynchronized?
+[15:52:12] [Server thread/INFO]: [Not Secure] <CGreens> asi salimos a explorar
+[15:52:16] [Server thread/WARN]: Received expired chat: ':33333'. Is the client/server system time unsynchronized?
+[15:52:16] [Server thread/INFO]: [Not Secure] <CGreens> :33333
+[15:52:19] [Server thread/WARN]: Received expired chat: 'te quiero mucho'. Is the client/server system time unsynchronized?
+[15:52:19] [Server thread/INFO]: [Not Secure] <CGreens> te quiero mucho
+[15:52:20] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[15:52:20] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[15:52:30] [Server thread/INFO]: <Zatanna917> uwu
+[15:52:33] [Server thread/INFO]: <Zatanna917> yo tambien cola sucia
+[15:53:03] [Server thread/WARN]: Received expired chat: 'sera un largo viaje'. Is the client/server system time unsynchronized?
+[15:53:03] [Server thread/INFO]: [Not Secure] <CGreens> sera un largo viaje
+[15:53:05] [Server thread/WARN]: Received expired chat: 'qwp'. Is the client/server system time unsynchronized?
+[15:53:05] [Server thread/INFO]: [Not Secure] <CGreens> qwp
+[15:53:09] [Server thread/INFO]: <Zatanna917> siu :,c
+[15:53:19] [Server thread/WARN]: Received expired chat: 'pero kiero casita'. Is the client/server system time unsynchronized?
+[15:53:19] [Server thread/INFO]: [Not Secure] <CGreens> pero kiero casita
+[15:53:20] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[15:53:20] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[15:53:32] [Server thread/WARN]: Received expired chat: ':o'. Is the client/server system time unsynchronized?
+[15:53:32] [Server thread/INFO]: [Not Secure] <CGreens> :o
+[15:53:34] [Server thread/WARN]: Received expired chat: 'termas'. Is the client/server system time unsynchronized?
+[15:53:34] [Server thread/INFO]: [Not Secure] <CGreens> termas
+[15:54:40] [Server thread/WARN]: Received expired chat: 'nu me cargan los chunks'. Is the client/server system time unsynchronized?
+[15:54:40] [Server thread/INFO]: [Not Secure] <CGreens> nu me cargan los chunks
+[15:54:43] [Server thread/WARN]: Received expired chat: 'D:'. Is the client/server system time unsynchronized?
+[15:54:43] [Server thread/INFO]: [Not Secure] <CGreens> D:
+[15:54:43] [Server thread/INFO]: <Zatanna917> x2
+[15:54:55] [Server thread/WARN]: Zatanna917 moved wrongly!
+[15:55:02] [Server thread/INFO]: <Zatanna917> esperemo un rato
+[15:55:07] [Server thread/INFO]: <Zatanna917> en lo que carga los chunks
+[15:55:10] [Server thread/WARN]: Received expired chat: 'okei'. Is the client/server system time unsynchronized?
+[15:55:10] [Server thread/INFO]: [Not Secure] <CGreens> okei
+[15:55:11] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[15:55:11] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[15:55:12] [Server thread/WARN]: CGreens moved wrongly!
+[15:55:21] [Server thread/WARN]: Zatanna917 moved wrongly!
+[15:55:24] [Server thread/WARN]: CGreens moved wrongly!
+[15:56:09] [Server thread/INFO]: Villager class_1646['Villager'/18338, l='ServerLevel[world]', x=470.50, y=77.00, z=1997.51] died, message: 'Villager was poked to death by a sweet berry bush'
+[15:56:20] [Server thread/INFO]: <Zatanna917> :o
+[15:56:22] [Server thread/INFO]: <Zatanna917> castillo
+[15:56:24] [Server thread/WARN]: Received expired chat: 'q :3'. Is the client/server system time unsynchronized?
+[15:56:24] [Server thread/INFO]: [Not Secure] <CGreens> q :3
+[15:56:28] [Server thread/WARN]: Received expired chat: 'dodne'. Is the client/server system time unsynchronized?
+[15:56:28] [Server thread/INFO]: [Not Secure] <CGreens> dodne
+[15:56:35] [Server thread/INFO]: <Zatanna917> aqui ps
+[15:57:51] [Server thread/WARN]: Received expired chat: 'nu es un castillo'. Is the client/server system time unsynchronized?
+[15:57:51] [Server thread/INFO]: [Not Secure] <CGreens> nu es un castillo
+[15:57:54] [Server thread/WARN]: Received expired chat: 'es una iglesia'. Is the client/server system time unsynchronized?
+[15:57:54] [Server thread/INFO]: [Not Secure] <CGreens> es una iglesia
+[15:57:57] [Server thread/INFO]: <Zatanna917> ah
+[15:57:58] [Server thread/INFO]: <Zatanna917> :,3
+[15:58:34] [Server thread/INFO]: <Zatanna917> mira
+[15:58:38] [Server thread/WARN]: Received expired chat: 'q'. Is the client/server system time unsynchronized?
+[15:58:38] [Server thread/INFO]: [Not Secure] <CGreens> q
+[15:58:39] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[15:58:39] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[15:58:50] [Server thread/INFO]: <Zatanna917> ese aldeano tiene el encantamineto para las boteela
+[15:58:53] [Server thread/INFO]: <Zatanna917> botella
+[15:58:58] [Server thread/WARN]: Received expired chat: ':o'. Is the client/server system time unsynchronized?
+[15:58:58] [Server thread/INFO]: [Not Secure] <CGreens> :o
+[15:59:18] [Server thread/INFO]: Zatanna917 has made the advancement [What a Deal!]
+[15:59:31] [Server thread/WARN]: Received expired chat: ':D'. Is the client/server system time unsynchronized?
+[15:59:31] [Server thread/INFO]: [Not Secure] <CGreens> :D
+[15:59:36] [Server thread/INFO]: <Zatanna917> guardemo pa una de hierro o diamante
+[16:00:07] [Server thread/WARN]: Received expired chat: 'vamos'. Is the client/server system time unsynchronized?
+[16:00:07] [Server thread/INFO]: [Not Secure] <CGreens> vamos
+[16:00:40] [Server thread/INFO]: Villager class_1646['Farmer'/18302, l='ServerLevel[world]', x=398.68, y=68.00, z=1979.36] died, message: 'Farmer was shot by CGreens'
+[16:00:42] [Server thread/INFO]: <Zatanna917> vamo
+[16:00:43] [Server thread/INFO]: Villager class_1646['Farmer'/18171, l='ServerLevel[world]', x=400.30, y=68.00, z=1986.71] died, message: 'Farmer was shot by CGreens'
+[16:00:57] [Server thread/WARN]: CGreens moved wrongly!
+[16:01:35] [Server thread/WARN]: Received expired chat: 'vamo a mar abierto'. Is the client/server system time unsynchronized?
+[16:01:35] [Server thread/INFO]: [Not Secure] <CGreens> vamo a mar abierto
+[16:01:37] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[16:01:37] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[16:04:00] [Server thread/INFO]: <Zatanna917> no encontramos mas un bioma calido :c
+[16:04:05] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[16:04:05] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[16:04:10] [Server thread/WARN]: Received expired chat: 'q mal spawn'. Is the client/server system time unsynchronized?
+[16:04:10] [Server thread/INFO]: [Not Secure] <CGreens> q mal spawn
+[16:05:25] [Server thread/INFO]: <Zatanna917> este parece ser uno
+[16:05:36] [Server thread/WARN]: Received expired chat: 'mm'. Is the client/server system time unsynchronized?
+[16:05:36] [Server thread/INFO]: [Not Secure] <CGreens> mm
+[16:05:41] [Server thread/WARN]: Received expired chat: 'sigue por este sentido'. Is the client/server system time unsynchronized?
+[16:05:41] [Server thread/INFO]: [Not Secure] <CGreens> sigue por este sentido
+[16:06:11] [Server thread/WARN]: Scarlet Biplane (vehicle of Zatanna917) moved too quickly! 0.5442375625107161,-0.7715137476940583,10.373800762384235
+[16:06:25] [Server thread/INFO]: <Zatanna917> selva :o
+[16:06:27] [Server thread/WARN]: Received expired chat: 'es savana esto'. Is the client/server system time unsynchronized?
+[16:06:27] [Server thread/INFO]: [Not Secure] <CGreens> es savana esto
+[16:06:29] [Server thread/WARN]: Received expired chat: ':o'. Is the client/server system time unsynchronized?
+[16:06:29] [Server thread/INFO]: [Not Secure] <CGreens> :o
+[16:06:31] [Server thread/WARN]: Received expired chat: 'y selva'. Is the client/server system time unsynchronized?
+[16:06:31] [Server thread/INFO]: [Not Secure] <CGreens> y selva
+[16:06:36] [Server thread/INFO]: <Zatanna917> vamo por ahi
+[16:06:40] [Server thread/INFO]: <Zatanna917> calido
+[16:06:45] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[16:06:45] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[16:06:54] [Server thread/WARN]: Received expired chat: 'nos deberiamos estar acercando a las costas'. Is the client/server system time unsynchronized?
+[16:06:54] [Server thread/INFO]: [Not Secure] <CGreens> nos deberiamos estar acercando a las costas
+[16:07:19] [Server thread/WARN]: Received expired chat: 'va a explotar el avion :,c'. Is the client/server system time unsynchronized?
+[16:07:19] [Server thread/INFO]: [Not Secure] <CGreens> va a explotar el avion :,c
+[16:07:37] [Server thread/WARN]: Received expired chat: 'q pasu'. Is the client/server system time unsynchronized?
+[16:07:37] [Server thread/INFO]: [Not Secure] <CGreens> q pasu
+[16:07:39] [Server thread/WARN]: Received expired chat: 'D:'. Is the client/server system time unsynchronized?
+[16:07:39] [Server thread/INFO]: [Not Secure] <CGreens> D:
+[16:07:52] [Server thread/WARN]: CGreens moved wrongly!
+[16:08:21] [Server thread/WARN]: CGreens moved wrongly!
+[16:08:29] [Server thread/WARN]: Received expired chat: 'wa'. Is the client/server system time unsynchronized?
+[16:08:29] [Server thread/INFO]: [Not Secure] <CGreens> wa
+[16:08:49] [Server thread/INFO]: <Zatanna917> :D
+[16:08:56] [Server thread/WARN]: Received expired chat: ':3'. Is the client/server system time unsynchronized?
+[16:08:56] [Server thread/INFO]: [Not Secure] <CGreens> :3
+[16:09:06] [Server thread/WARN]: Received expired chat: 'estamos en savana ahora'. Is the client/server system time unsynchronized?
+[16:09:06] [Server thread/INFO]: [Not Secure] <CGreens> estamos en savana ahora
+[16:09:12] [Server thread/INFO]: <Zatanna917> _p
+[16:09:13] [Server thread/INFO]: <Zatanna917> :o
+[16:09:15] [Server thread/INFO]: <Zatanna917> jirafa
+[16:09:19] [Server thread/WARN]: Received expired chat: 'y aldea'. Is the client/server system time unsynchronized?
+[16:09:19] [Server thread/INFO]: [Not Secure] <CGreens> y aldea
+[16:09:22] [Server thread/WARN]: Received expired chat: 'vi caminito'. Is the client/server system time unsynchronized?
+[16:09:22] [Server thread/INFO]: [Not Secure] <CGreens> vi caminito
+[16:09:37] [Server thread/WARN]: Received expired chat: 'me trolleo el caminito'. Is the client/server system time unsynchronized?
+[16:09:37] [Server thread/INFO]: [Not Secure] <CGreens> me trolleo el caminito
+[16:09:39] [Server thread/WARN]: Received expired chat: 'no hay nada'. Is the client/server system time unsynchronized?
+[16:09:39] [Server thread/INFO]: [Not Secure] <CGreens> no hay nada
+[16:10:33] [Server thread/WARN]: Received expired chat: 'wa'. Is the client/server system time unsynchronized?
+[16:10:33] [Server thread/INFO]: [Not Secure] <CGreens> wa
+[16:10:42] [Server thread/WARN]: Received expired chat: 'me asusto cuando parece q me caigo del avion'. Is the client/server system time unsynchronized?
+[16:10:42] [Server thread/INFO]: [Not Secure] <CGreens> me asusto cuando parece q me caigo del avion
+[16:10:44] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[16:10:44] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[16:10:58] [Server thread/INFO]: <Zatanna917> :C
+[16:12:23] [Server thread/WARN]: Received expired chat: 'waa'. Is the client/server system time unsynchronized?
+[16:12:23] [Server thread/INFO]: [Not Secure] <CGreens> waa
+[16:13:11] [Server thread/INFO]: <Zatanna917> reparalo
+[16:13:12] [Server thread/INFO]: <Zatanna917> D:
+[16:13:17] [Server thread/WARN]: CGreens moved wrongly!
+[16:13:35] [Server thread/WARN]: Received expired chat: 'me muero de caloor'. Is the client/server system time unsynchronized?
+[16:13:35] [Server thread/INFO]: [Not Secure] <CGreens> me muero de caloor
+[16:13:38] [Server thread/WARN]: Received expired chat: 'D:'. Is the client/server system time unsynchronized?
+[16:13:38] [Server thread/INFO]: [Not Secure] <CGreens> D:
+[16:13:39] [Server thread/INFO]: <Zatanna917> x
+[16:13:40] [Server thread/INFO]: <Zatanna917> x2
+[16:13:41] [Server thread/INFO]: <Zatanna917> :,c
+[16:13:43] [Server thread/WARN]: Received expired chat: 'sube'. Is the client/server system time unsynchronized?
+[16:13:43] [Server thread/INFO]: [Not Secure] <CGreens> sube
+[16:14:04] [Server thread/WARN]: Zatanna917 moved wrongly!
+[16:14:08] [Server thread/WARN]: CGreens moved wrongly!
+[16:14:44] [Server thread/WARN]: Received expired chat: ':D'. Is the client/server system time unsynchronized?
+[16:14:44] [Server thread/INFO]: [Not Secure] <CGreens> :D
+[16:16:27] [Server thread/INFO]: <Zatanna917> sera dificil
+[16:16:33] [Server thread/INFO]: <Zatanna917> encontrar oceano
+[16:16:33] [Server thread/WARN]: Received expired chat: ':,c'. Is the client/server system time unsynchronized?
+[16:16:33] [Server thread/INFO]: [Not Secure] <CGreens> :,c
+[16:16:44] [Worker-Main-25/WARN]: Non-existent template pool reference: revampedvillages:outpost/points
+[16:16:45] [Worker-Main-25/WARN]: Non-existent template pool reference: revampedvillages:outpost/points
+[16:16:51] [Server thread/WARN]: Received expired chat: 'este mod hace los biomas mas largos'. Is the client/server system time unsynchronized?
+[16:16:51] [Server thread/INFO]: [Not Secure] <CGreens> este mod hace los biomas mas largos
+[16:18:40] [Server thread/INFO]: <Zatanna917> wa no veo nada
+[16:18:47] [Server thread/WARN]: Received expired chat: 'yo estoy en el suelo'. Is the client/server system time unsynchronized?
+[16:18:47] [Server thread/INFO]: [Not Secure] <CGreens> yo estoy en el suelo
+[16:18:48] [Server thread/WARN]: Received expired chat: ':c'. Is the client/server system time unsynchronized?
+[16:18:48] [Server thread/INFO]: [Not Secure] <CGreens> :c
+[16:18:50] [Server thread/INFO]: <Zatanna917> x2
+[16:18:51] [Server thread/INFO]: <Zatanna917> :,c
+[16:19:01] [Server thread/INFO]: <Zatanna917> WA
+[16:19:03] [Server thread/INFO]: <Zatanna917> no veo nada
+[16:19:04] [Server thread/INFO]: <Zatanna917> :,c
+[16:19:07] [Server thread/INFO]: <Zatanna917> estoy bajo tierra
+[16:19:07] [Server thread/INFO]: <Zatanna917> wa
